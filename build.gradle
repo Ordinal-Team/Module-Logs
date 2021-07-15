@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'fr.ordinalteam'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+compileJava.options.encoding("utf8")
+
+dependencies {
+    compile fileTree(include: '*.jar', dir: 'libs')
+}
